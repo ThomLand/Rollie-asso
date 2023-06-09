@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/produit/produit-i.css">
+    <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    <header>
+      <a id="logo" href="#"><img src="/img/ROLEX.png" alt=""></a>
+      <nav>
+          <a id="nav-a" href="#">Home</a>
+          <button class="accordion">Products</button>
+          <div class="panel">
+              <p><a href="/product/products.html">collection - 1</a></p>
+              <p><a href="/product/products.html">collection - 2</a></p>
+          </div>
+          <a id="nav-a" href="/contact/contact.html">Contact</a>
+      </nav>
+      <a id="bn" href="#">
+      <div class="btn-panier">
+      <h3>Buy now</h3>
+      </div></a>
+  </header>
+
+  <style>
+      .accordion {
+        color: black;
+        cursor: pointer;
+        width: 20%;
+        border: none;
+        text-align: center;
+        background-color: #0B3E27;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
+      
+      .active, .accordion:hover {
+        background-color: #ADFF45; 
+      }
+      
+      .panel {
+        display: none;
+        background-color: white;
+        overflow: hidden;
+        width: 40%;
+        margin-right: 0;
+        padding: 0.2rem;
+      }
+
+      .panel p {
+          padding: 0.4rem;
+      }
+      </style>
+
+      <button class="accordion1">SERVICES et INFO</button>
+      <div class="panel1">
+
+          <h3>SERVICES APRÉS VENTES POSSIBLES</h3>
+
+          <p>Retrait en magasin / Inscription sur liste pour <br>
+          <strong> Modéle : 1962</strong></p>
+          <p>Livraison sous 30 jours</p>
+          <p>Nettoyage Mensuel</p>
+
+          <h3>MODE DE PAIEMENTS POSSIBLES</h3>
+
+          <p>Paiement en magasin</p>
+          <p>paiement en 1 fois SEULEMENT !</p>
+          <p>paiement en ligne <br>
+          <strong>Cartes acceptées :</strong></p>
+          <div class="span">
+            <img src="/img-panier/mastercard.png" alt="">
+            <img src="/img-panier/visa.png" alt="">
+            <img src="/img-panier/rupay.png" alt="">
+          </div>
+      </div>
+
+
+
+    <div id="galerie">
+      <dl id="photo">
+        <dt>ROLEX 1908 - 36mm</dt>
+        <!--  identifie un terme dans une liste de définitions ou de descriptions. -->
+        <dd>
+          <img
+            id="la_photo"
+            src="/img/sub mariner.png"
+            alt="Photo 1"
+            style="width: 200px"
+          />
+        </dd>
+      </dl>
+      
+      <div class="galerie_block">
+        <ul id="galerie_mini">
+          <li class="list-1">
+            <a href="/img/rolexaterre.png" title="Photo 2"
+              ><img src="/img/rolexaterre.png" alt="Photo 2"
+            /></a>
+          </li>
+          <li class="list-1">
+            <a href="/img/Rolex-22The-Gold-Submariner-ref.-168022-0.jpg" title="Photo 2"
+              ><img src="/img/Rolex-22The-Gold-Submariner-ref.-168022-0.jpg" alt="Photo 2"
+            /></a>
+          </li>
+
+        </ul>
+        <ul class="description-produit">
+          <li>Modéle 1908</li>
+          <li>Montre en Argent</li>
+          <li>Polie - bracelet en cuir</li>
+        </ul>
+
+        <ul class="filt">
+
+          <button class="accordion2">Inscription Liste 1962</button>
+          <div class="panel2">
+              <p>e-mail</p>
+              <input type="text">
+              <p>Nom, Prenom</p>
+              <input type="text">
+              <button id="insc">S'inscrire</button>
+          </div>
+          
+        </ul>
+
+        <a id="btn-pnr2" href="#">Panier</a>
+      </div>
+    </div>
+
+    <section class="section_D">
+      <div>
+        <p>La Rolex Mariner en or est un chef-d'œuvre horloger qui allie luxe et fonctionnalité.
+         Son boîtier en or lui confère une allure élégante et intemporelle. Dotée d'un bracelet en or assorti,
+         elle est véritablement un symbole de statut et de sophistication. Avec ses caractéristiques techniques de pointe et son design emblématique
+         la Rolex Mariner en or est un choix inégalé pour les amateurs de montres de qualité supérieure. </p>
+      </div>
+    </section>
+    <section class="section_texte">
+      <div><p>Dès leur origine, ils visent à ouvrir de nouveaux horizons à la philanthropie et soutiennent des êtres hors du commun partout dans le monde, de véritables pionniers qui, n’ayant pas ou peu accès aux sources de financement classiques, font face à des défis majeurs en élaborant des
+         projets originaux et novateurs afin d’améliorer les conditions de vie sur terre et de repousser les limites de la connaissance.</p>
+      </div>
+    </section>
+
+    <script src="/produit/produit-i.js"></script>
+</body>
+</html>
