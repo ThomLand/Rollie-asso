@@ -230,9 +230,10 @@ h2 {
 }
 
 .description-produit {
-	margin-top: 6rem;
+	margin-top: 0rem;
 	list-style: none;
 	font-weight: 100;
+	margin-right: 7rem;
 }
 
 #photo
@@ -252,7 +253,6 @@ h2 {
 }
 
 #photo img {
-	border:1px solid black;
 	width : auto;
 	height : auto;
 }
@@ -297,6 +297,19 @@ h2 {
 	justify-content: left;
 }
 
+#img-n img {
+	width: 50%;
+}
+
+#la_photo{
+	width: 100%;
+}
+
+.galerie dd {
+	width: 40%;
+	margin-left: 30%;
+}
+
 @media screen and (max-width:1019px) {
 	.galerie_block{
 		display: block;
@@ -310,11 +323,10 @@ h2 {
 		background-color: #ADFF45;
 		padding: 1rem;
 		border: 1px solid #0B3E27;
-		width: 40%;
-		margin-left: 30%;
-		margin-bottom: 3.2rem;
-	}
-	
+		width: 30%;
+		margin-left: 8%;
+		position: absolute;
+	}	
 	#galerie_mini {
 		margin-left:20%;
 		width: 60%;
@@ -331,6 +343,9 @@ h2 {
 		margin-top: 2rem;
 		margin-bottom: 2rem;
 	}
-	
-	
+}
+
+.block{
+	display: block;
+	width: 50%;
 }
