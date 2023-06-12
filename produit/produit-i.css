@@ -222,6 +222,11 @@ h2 {
 	width: 35%;
 }
 
+.blocka {
+	width: 100%;
+	margin-left: 25%;
+}
+
 #galerie_mini li a img {
 	justify-content: left;
 	margin:2px 1px;
@@ -233,7 +238,8 @@ h2 {
 	margin-top: 0rem;
 	list-style: none;
 	font-weight: 100;
-	margin-right: 7rem;
+	margin-right: 0rem;
+	justify-content: center;
 }
 
 #photo
@@ -323,9 +329,8 @@ h2 {
 		background-color: #ADFF45;
 		padding: 1rem;
 		border: 1px solid #0B3E27;
-		width: 30%;
-		margin-left: 8%;
-		position: absolute;
+		width: 20%;
+		margin-left: 20rem;
 	}	
 	#galerie_mini {
 		margin-left:20%;
